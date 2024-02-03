@@ -48,8 +48,8 @@ function Weather() {
           Get Weather
         </button>
       </div>
-      {error && <div className="text-red-600 mt-4">{error}</div>}
-      {message && <div className="text-red-600 mt-4">{message}</div>}
+      {error && <div className="text-red-600 text-3xl  mt-4">{error}</div>}
+      {message && <div className="text-red-600 text-3xl mt-4">{message}</div>}
       {weather && (
         <div className="mt-4">
           <h2 className="text-xl text-red-600 font-semibold mb-2">
