@@ -92,7 +92,7 @@ function Weather() {
             {weather.weather[0].description}
           </p>
           <p className="text-lg  text-sky-400">
-            Temperature : {Math.round(weather.main.temp)}
+            Temperature : {Math.round(weather.main.temp)}°C
           </p>
         </div>
       )}
