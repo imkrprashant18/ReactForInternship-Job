@@ -8,7 +8,7 @@ function Home() {
   return (
     <>
       <div>
-        <div className="w-full h-full flex justify-start items-start mt-24 border border-gray-400">
+        <div className="w-full h-full flex justify-start items-start  border border-gray-400">
           <div className="flex justify-center items-center mt-24  ml-8 flex-col h-1/2  w-1/2">
             <h1 className="text-3xl  text-center font-mono mt-8 mb-2  text-pink-800">
               Get Your Business Online?
