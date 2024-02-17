@@ -10,6 +10,7 @@ import Services from "./Services/Services";
 import Team from "./Team/Team";
 import Help from "./Help/Help";
 import Container from "./Container/Container";
+import Testimonials from "./Testimonials/Testimonials";
 
 export {
   Input,
@@ -24,4 +25,5 @@ export {
   Help,
   Services,
   Container,
+  Testimonials,
 };

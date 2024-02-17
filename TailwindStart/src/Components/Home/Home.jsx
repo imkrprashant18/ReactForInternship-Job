@@ -3,12 +3,13 @@ import React, { Children } from "react";
 import Button from "../Button";
 import Services from "../Services/Services";
 import Container from "../Container/Container";
+import Testimonials from "../Testimonials/Testimonials";
 
 function Home() {
   return (
     <>
       <div>
-        <div className="w-full h-full flex justify-start items-start  border border-gray-400">
+        <div className="w-full h-full flex justify-start items-start  ">
           <div className="flex justify-center items-center mt-24  ml-8 flex-col h-1/2  w-1/2">
             <h1 className="text-3xl  text-center font-mono mt-8 mb-2  text-pink-800">
               Get Your Business Online?
@@ -27,7 +28,7 @@ function Home() {
               </Link>
             </div>
           </div>
-          <div className="h-1/2 w-1/2 border border-gray-400">
+          <div className="h-1/2 w-1/2 ">
             <img
               src="https://cdn.pixabay.com/photo/2020/09/17/18/05/people-5579977_1280.png"
               alt="homePic"
@@ -37,6 +38,7 @@ function Home() {
         </div>
         <Container>
           <Services />
+          <Testimonials />
         </Container>
       </div>
     </>
